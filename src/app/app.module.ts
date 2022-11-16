@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { ExperienciasComponent } from './experiencias/experiencias.component';
 import { EducacaoComponent } from './educacao/educacao.component';
+import { FormatarTelefonePipe } from './pipes/formatar-telefone.pipe';
+import { FormatarCpfPipe } from './pipes/formatar-cpf.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { EducacaoComponent } from './educacao/educacao.component';
     HeaderComponent,
     SobreComponent,
     ExperienciasComponent,
-    EducacaoComponent
+    EducacaoComponent,
+    FormatarTelefonePipe,
+    FormatarCpfPipe
   ],
   imports: [
     BrowserModule,
