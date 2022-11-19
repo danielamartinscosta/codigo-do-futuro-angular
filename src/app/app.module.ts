@@ -9,6 +9,8 @@ import { ExperienciasComponent } from './experiencias/experiencias.component';
 import { EducacaoComponent } from './educacao/educacao.component';
 import { FormatarTelefonePipe } from './pipes/formatar-telefone.pipe';
 import { FormatarCpfPipe } from './pipes/formatar-cpf.pipe';
+import { ExerciciosComponent } from './exercicios/exercicios.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { FormatarCpfPipe } from './pipes/formatar-cpf.pipe';
     ExperienciasComponent,
     EducacaoComponent,
     FormatarTelefonePipe,
-    FormatarCpfPipe
+    FormatarCpfPipe,
+    ExerciciosComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
