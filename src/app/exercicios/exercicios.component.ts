@@ -49,13 +49,12 @@ export class ExerciciosComponent implements OnInit {
   }
 
   alterar(){
+  this.estoque = this.estoques[0]
   
-    this.estoques.values
-
-    }
-
-  excluir(id:Number): void{
+  
+  }
+  excluir(): void{
     return 
   }
-  }
 
+}
